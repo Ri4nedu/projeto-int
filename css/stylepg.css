@@ -1,4 +1,6 @@
+@import url(css/variaveis.css);
 body {
+
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -31,6 +33,7 @@ nav ul {
 nav li {
   display: inline;
   margin: 0 15px;
+  font-family: Alegreya;
 }
 
 nav a {
@@ -78,28 +81,18 @@ map{
   border-radius: 10px; 
 
 }
-
-.article-section {
-  display: flex;
-  margin: 20px 0;
-}
-
 .large-image {
   display: flex;
-  width: 100%; /* Aumentando o tamanho da imagem grande */
-  height: 100%; /* Tamanho da imagem grande */
+  width: 400px; /* ta zuado*/
+  height:400px; /* arruma esssa poha */
   border-radius: 10px; /* Bordas arredondadas */
   overflow: hidden;
   position: relative;
 }
+#forma{
+  display: grid;
+  align-items: flex-end;
 
-article {
-  width: 40%;
-  padding: 20px;
-  background-color: #fff;
-  color: #000; /* Texto preto para contraste */
-  border-radius: 10px; /* Bordas arredondadas */
-  margin-left: 20px; /* Espaçamento entre a imagem e o texto */
 }
 
 

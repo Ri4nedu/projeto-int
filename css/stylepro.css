@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  nav {
+    background-color: #444;
+    text-align: center;
+    padding: 20px 0; 
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin-inline-end: 25px;/*arruma essa parada*/
+    margin-inline-start: 25px;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
