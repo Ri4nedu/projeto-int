@@ -8,16 +8,14 @@ body {
   background-color: #f4f4f4;
 }
 
-header {
-  background-color: #333;
-  text-align: center;
-  padding: 40px;
-}
-
 nav {
   background-color: #444;
   text-align: center;
   padding: 20px 0; 
+}
+header{
+  height:300px;
+  width: 100%;
 }
 
 nav ul {
@@ -58,6 +56,7 @@ nav a {
 h2 {
   text-align: center;
   margin: 20px 0;
+  color: green;
 }
 map{
   color:aqua;
